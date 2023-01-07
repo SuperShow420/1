@@ -3,7 +3,7 @@ const path = require('path')
 const app = express()
 const fs = require('fs')
 const url = require('url')
-const port = 3000
+const port = 0.0.0.0
 
 
 app.use(express.static(path.join(__dirname, "/ShowAnime")))
