@@ -1,0 +1,944 @@
+.main-header-wrapper-pre {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 5;
+}
+
+.main-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 4vw;
+}
+
+.top-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area {
+    display: flex;
+    flex-direction: column;
+    height: 52vw;
+    width: fit-content;
+    background: #272727;
+    border-radius: 0.54112vw;
+}
+
+.episode-area-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.episode-area {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+iframe {
+    height: 42vw;
+    width: 64vw;
+}
+
+.video-area-option-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area-options {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.server-area-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.server-area {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.server-disclaimer-wrapper {
+    display: flex;
+    height: 10vw;
+    width: 12vw;
+    border-radius: 0 0 0 0.54112vw;
+    background: #868686;
+    align-items: center;
+    justify-content: center;
+}
+
+.server-disclaimer {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 1vw;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.2112vw;
+}
+
+.server-list-wrapper {
+    display: flex;
+    height: auto;
+    width: fit-content;
+}
+
+.server-list {
+    display: flex;
+    height: -webkit-fill-available;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.server-list-dub {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.server-dub {
+    display: flex;
+    height: 5vw;
+    width: 8vw;
+    color: #868686;
+    font-family: system-ui;
+    font-size: 1.4112vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.server-wrapper {
+    display: flex;
+    height: auto;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.server {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw;
+    border-radius: 0.112vw;
+    background: red;
+    color: white;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.server-list-sub {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.server-sub {
+    display: flex;
+    height: 5vw;
+    width: 8vw;
+    color: #868686;
+    font-family: system-ui;
+    font-size: 1.4112vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-area-control-option-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: -webkit-fill-available;
+}
+
+.video-area-control-option {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    padding: 0 2vw 0 4vw;
+}
+
+.video-area-control-unlike {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    padding: 0 2vw;
+    align-items: center;
+}
+
+.video-area-control-like {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.fa-regular.fa-heart, .fa-regular.fa-thumbs-down,
+.fa-solid.fa-share, .fa-solid.fa-download,
+.fa-solid.fa-bookmark {
+    cursor: pointer;
+    color: #848484;
+    transition: all 0.5112s ease-in-out;
+    font-size: 1.5112vw;
+}
+
+.fa-regular.fa-heart:hover, .fa-regular.fa-thumbs-down:hover,
+.fa-solid.fa-share:hover, .fa-solid.fa-download:hover,
+.fa-solid.fa-bookmark:hover {
+    color: white;
+}
+
+.video-area-control-share {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.video-area-control-download {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    padding: 0 2vw;
+    align-items: center;
+}
+
+.video-area-control-add-to-playlist {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.video-area-control-episode {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.fa-solid.fa-backward, .fa-solid.fa-forward,
+.fa-solid.fa-lightbulb, .fa-solid.fa-expand {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    transition: all 0.112s ease-in-out;
+    font-size: 2vw;
+}
+
+.fa-solid.fa-expand:hover {
+    font-size: 2.2112vw;
+}
+
+.video-area-control-next {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.video-area-control-lights {
+    display: flex;
+    height: 5vw;
+    width: fit-content;
+    align-items: center;
+}
+
+.video-area-control-fullscreen {
+    display: flex;
+    height: 5vw;
+    width: 1.9vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-area-anime-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area-anime {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 2vw;
+    margin: 2vw 0;
+    border-radius: 0.54112vw;
+    background: #282828;
+}
+
+.video-area-anime-image-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: fit-content;
+    padding: 2vw 0;
+    align-items: center;
+}
+
+.video-area-anime-image {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.video-area-anime-img {
+    display: flex;
+    height: fit-content;
+    width: 12vw;
+    border-radius: 0.2112vw;
+}
+
+.video-area-anime-details-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    padding: 2vw 1vw;
+}
+
+.video-area-anime-details {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.video-area-anime-details-name-extra-name-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+
+.video-area-anime-details-name {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: aliceblue;
+    font-family: system-ui;
+    font-size: 2vw;
+}
+
+.video-area-anime-details-extra-name {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 0.5vw;
+    color: #848484;
+    font-family: system-ui;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.video-area-anime-details-info-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area-anime-details-info {
+    display: flex;
+    height: -webkit-fill-available;
+    width: 30vw;
+    padding: 1vw 0;
+    flex-wrap: wrap;
+}
+
+.video-area-anime-details-info-type, .video-area-anime-details-info-release-date,
+.video-area-anime-details-info-views, .video-area-anime-details-info-episodes-runtime,
+.video-area-anime-details-info-status, .video-area-anime-details-info-genre {
+    display: flex;
+    height: fit-content;
+    width: 15vw;
+    color: white;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.video-area-anime-details-info-type-icon, .video-area-anime-info-release-date-icon,
+.video-area-anime-details-info-views-icon, .views-area-anime-details-info-episodes-runtime-icon,
+.video-area-anime-details-info-status-icon, .video-area-anime-details-info-genre-icon {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 0.5vw;
+    color: #848484;
+}
+
+.video-area-anime-details-description-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.video-area-anime-details-description {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    color: #848484;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.video-area-related-anime-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw;
+    border-radius: 0.54112vw;
+    background: #282828;
+}
+
+.video-area-related-anime-heading-wrapper {
+    display: flex;
+    height: 5vw;
+    width: -webkit-fill-available;
+}
+
+.video-area-related-anime-heading {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: system-ui;
+    font-size: 2vw;
+}
+
+.video-area-related-anime-item-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.video-area-related-anime-item {
+    display: flex;
+    height: -webkit-fill-available;
+    width: fit-content;
+    padding: 0 2vw 0 0;
+    flex-direction: column;
+}
+
+.video-area-related-anime-image-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: fit-content;
+}
+
+.video-area-related-anime-image {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 0.2112vw;
+    overflow: hidden;
+}
+
+.video-area-related-anime-img {
+    display: flex;
+    height: 15vw;
+    width: fit-content;
+}
+
+.video-area-related-anime-title-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw 0;
+    justify-content: center;
+}
+
+.video-area-related-anime-title {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 0 0 2vw;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: -webkit-fill-available;
+    background: #282828;
+    border-radius: 0.54112vw;
+}
+
+.sidebar-episode-header-wrapper {
+    display: flex;
+    height: 5vw;
+    width: -webkit-fill-available;
+    padding: 0.5vw 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-episode-header {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 1vw 0.5vw 1vw;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.64vw;
+}
+
+.sidebar-sidebar-episode-header-controls-wrapper {
+    display: flex;
+    height: 2.28vw;
+    width: -webkit-fill-available;
+    color: white;
+    background: #545454;
+    padding: 0 1vw;
+    font-family: system-ui;
+    font-size: 1vw;
+    align-items: center;
+}
+
+.sidebar-episode-header-jump-to-episode {
+    display: flex;
+    height: 1.56vw;
+    width: 4vw;
+    margin: 0 0 0 1vw;
+    background: transparent;
+    border: 1px solid #848484;
+    border-right: none;
+    border-radius: 0.112vw 0 0 0.112vw;
+    color: red;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.fa-solid.fa-magnifying-glass {
+    display: flex;
+    height: 1.64vw;
+    width: 2vw;
+    background: red;
+    border: 1px solid red;
+    border-radius: 0 0.112vw 0.112vw 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-episode-header-controls-else-wrapper {
+    display: none;
+    position: absolute;
+    height: fit-content;
+    width: 21vw;
+    padding: 0.5vw;
+    top: 10.56vw;
+    z-index: 5;
+    border-radius: 0.2112vw;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-episode-header-form-wrapper {
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 5vw;
+    color: white;
+    top: -1vw;
+}
+
+.sidebar-episode-header-controls-else {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: red;
+    font-family: system-ui;
+    font-size: 1vw;
+} 
+
+.sidebar-episode-header-controls-toggle-wrapper {
+    display: flex;
+    height: 2vw;
+    width: 5vw;
+    padding: 0 0 0 7vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-episode-header-control-toggle {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar-episode-header-control-toggle-mode-1 {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.fa-solid.fa-list {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.54vw;
+    color: red;
+}
+
+.sidebar-episode-header-control-toggle-mode-2 {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.fa-solid.fa-ellipsis-vertical {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.54vw;
+    padding: 0 0.1vw;
+}
+
+.sidebar-episode-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0.5vw 0;
+}
+
+.sidebar-episode- {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0.5vw;
+    transition: all 0.28112s ease-in-out;
+}
+
+#sidebar-episode-selected {
+    background: red;
+}
+
+.currently-playing {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: #545454;
+    font-family: monospace;
+    font-size: 1vw;
+}
+
+.currently-next {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: monospace;
+    font-size: 1vw;
+}
+
+.episode-video-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: fit-content;
+}
+
+.episode-video {
+    display: flex;
+    height: 5vw;
+    width: 9vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.episode-video:hover {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.episode-video:hover >  .episode-video-thumbnail {
+    display: none;
+}
+
+.episode-video:hover >  iframe {
+    display: flex;
+    position: absolute;
+    height: 12vw;
+    width: 22vw;
+    box-shadow: 0 0 12.11px black;
+    z-index: 1;
+}
+
+.fa-solid.fa-play {
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 2vw;
+}
+
+.episode-video-thumbnail {
+    display: flex;
+    height: 5vw;
+    width: 9vw;
+}
+
+.episode-video iframe {
+    display: flex;
+    position: absolute; 
+    height: 5vw;
+    width: 9vw;
+    z-index: -1;
+    transition: all 0.2112s ease-in-out;
+}
+
+.episode-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: -webkit-fill-available;
+    padding: 0 1vw;
+    justify-content: space-between;
+}
+
+.episode-title {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.sidebar-episode {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0.5vw;
+    background: #545454;
+    transition: all 0.28112s ease-in-out;
+}
+
+.sidebar-recommended-toggle-wrapper {
+    display: none;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.sidebar-recommended-toggle {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.sidebar-recommended-toggle-item-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    flex-wrap: wrap;
+}
+
+.sidebar-recommended-toggle-item {
+    display: flex;
+    height: 2vw;
+    width: 2.84vw;
+    margin: 1vw;
+    background: red;
+    border-radius: 0.2112vw;
+    opacity: 0.56;
+    color: white;
+    font-size: 1vw;
+    font-family: system-ui;
+    align-items: center;
+    justify-content: center;
+}
+
+#sidebar-recommended-toggle-item-selected {
+    opacity: 1;
+}
+
+.sidebar-recommended-wrapper {
+    display: flex;
+    height: auto;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.sidebar-recommended {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    padding: 1vw 0.5vw;
+    border-radius: 0.54112vw;
+    background: #282828;
+}
+
+.sidebar-recommended-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.sidebar-recommended-item {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    padding: 0.5vw 0;
+}
+
+.sidebar-recommended-item-video-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: 12vw;
+}
+
+.sidebar-recommended-item-iframe {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 0.5vw;
+    border-radius: 0.54112vw;
+    overflow: hidden;
+}
+
+.sidebar-recommended-item-info-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.sidebar-recommended-item-info {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.sidebar-recommended-item-name-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+.sidebar-recommended-item-name {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: system-ui;
+    font-size: 1vw;
+}
+
+.sidebar-recommended-item-view-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.sidebar-recommended-item-view {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: #848484;
+    font-family: system-ui;
+    font-size: .8vw;
+}
+
+.sidebar-recommended-item-thumbnail {
+    display: flex;
+    height: 7vw;
+    width: 11vw;
+}
+
+.sidebar-recommended-item-video {
+    display: flex;
+    position: absolute;
+    height: 7vw;
+    width: 11vw;
+    z-index: -1;
+}
+
+.video-area-anime-comment-section-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.video-area-anime-comment-section {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    padding: 1vw;
+    background: #282828;
+    border-radius: 0.54112vw;
+}
+
+.video-area-anime-comment-header-wrapper {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    align-items: flex-end;
+}
+
+.video-area-anime-comment-header {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: system-ui;
+    font-size: 2vw;
+}
+
+.video-area-anime-comment-header-comment-count {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.84112vw;
+}
+
+.footer-wrapper {
+    padding: 5vw 0 0 0;
+}

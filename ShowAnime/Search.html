@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CsS/ShowAnimeIndex.css">
+    <link rel="stylesheet" href="/CsS/ShowAnimeSearch.css">
+</head>
+<body>
+    <div class="main-header-wrapper-pre">
+        <div class="header-wrapper">
+            <div class="header-menu-wrapper-pre">
+                <div class="header-menu-wrapper">
+                    <div class="header-menu" onclick="AnimationHeaderMenuIcon(event)">
+                        <p class="header-menu-icon" id="header-menu-icon-1"></p>
+                        <p class="header-menu-icon" id="header-menu-icon-2"></p>
+                        <p class="header-menu-icon" id="header-menu-icon-3"></p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="nav-wrapper">
+                <div class="main-nav-wrapper">
+                    <nav class="main-navbar">
+                        <div class="nav-item-wrapper">
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Anime-List</div>
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Search Page</div>
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Help</div>
+                            <div class="nav-item-selected" id="nav-item-" onclick="NavItem(event)">Home</div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="main-logo-wrapper">
+                <div class="logo-wrapper">
+                    <div class="img-wrapper">
+                        <img src="🤍CsS🤍\145-1459476_[chibi]-demon-boy-[ishnia-gaia]-by-nikki-tine-chibi.png" alt="" class="logo-img">
+                    </div>
+                    <div class="logo-text-wrapper">
+                        <p class="logo-text-show">SHOW</p>
+                        <p class="logo-text-anime">ANIME</p>
+                    </div>
+                </div>
+            </div>
+            <div class="searchsection-wrapper">
+                <div class="search-section">
+                    <div class="icon-wrapper">
+                        <div class="i-wrapper">
+                            <i class="icon-i">
+                                
+                            </i>
+                        </div>
+                    </div>
+                    <div class="search-input-wrapper-main">
+                        <div class="search-wrapper">
+                            <input type="text" placeholder="search for anime...." class="search-input">
+                        </div>
+                    </div>
+                    <div class="search-result-wrapper-main">
+                        <div class="search-result">
+                            <div class="anime-info">
+                                <div class="anime-img-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="anime-img">
+                                </div>
+                                <div class="anime-info-wrapper">
+                                    <div class="anime-title-wrapper">
+                                        <p class="anime-title">Title Season</p>
+                                    </div>
+                                    <div class="episode-amount-wrapper">
+                                        <p class="episodes">Episodes</p>
+                                        <p class="episode-amount">12</p>
+                                    </div>
+                                    <div class="type-wrapper">
+                                        <p class="anime-type">TV Series</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-account-logo-wrapper">
+                <div class="header-account-logo">
+                    <div class="header-account-logo-img-wrapper">
+                        <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="header-account-logo-img">
+                    </div>
+                </div>
+            </div>
+            <div class="header-telegram-logo-wrapper">
+                <div class="header-telegram-logo">
+                    <div class="header-telegram-image-wrapper">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu">
+            <div class="menu-icon-wrapper">
+                <div class="header-menu" onclick="AnimationHeaderMenuIcon(event)">
+                    <p class="header-menu-icon" id="header-menu-icon-1"></p>
+                    <p class="header-menu-icon" id="header-menu-icon-2"></p>
+                    <p class="header-menu-icon" id="header-menu-icon-3"></p>                    
+                </div>   
+            </div>
+        <div class="menu-content-wrapper">
+            <div class="menu-content">
+                <div class="item-wrapper">
+                    <div class="playlist-wrapper">
+                        <i class="fa-regular fa-rectangle-list"></i>
+                        <div class="playlist">Playlist</div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="watch-history-wrapper">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <div class="watch-history">History</div>
+                    </div>
+                </div>
+                <div class="item-wrapper" id="item-music">
+                    <div class="music-wrapper">
+                        <i class="fa-solid fa-music"></i>
+                        <div class="music">Music</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wrapper-600px">
+        <div class="main-nav-wrapper">
+            <nav class="main-navbar">
+                <div class="nav-item-wrapper">
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Anime-List</div> 
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Search Page</div>
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Help</div>
+                    <div class="nav-item-selected" id="nav-item-" onclick="NavItem(event)">Home</div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+
+    <div class="main-wrapper">
+        <main class="main">
+            <div class="most-searched-wrapper">
+                <div class="most-searched">
+                    <div class="most-searched-header-wrapper">
+                        <div class="most-searched-header">
+                            Most Searched
+                        </div>
+                        <div class="most-searched-time-wrapper">
+                            <i class="fa-regular fa-clock"></i>
+                            <div class="most-searched-time">
+                                24 Hr
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most-searched-item-wrapper">
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                        <div class="most-searched-item">
+                            <div class="most-searched-item-image-wrapper">
+                                <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="most-searched-item-img">
+                            </div>
+                            <div class="most-searched-item-name-wrapper">
+                                <div class="most-searched-item-name">Chaisaw Man</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main-left">
+                    <div class="main-filter-wrapper">
+                        <div class="main-filter">
+                            <div class="main-filter-option">Genre</div>
+                            <div class="main-filter-option">Type</div>
+                            <div class="main-filter-option">Language</div>
+                            <div class="main-filter-option">Release</div>
+                            <div class="main-filter-option">Status</div>
+                            <div class="main-filter-search">Search</div>
+                        </div>
+                    </div>
+                    <div class="main-filter-search-wrapper">
+                        <div class="filter-wrapper">
+                            <div class="filter">Release</div>
+                            <div class="filter">Type</div>
+                        </div>
+                        <div class="main-search-wrapper">
+                            12 Results
+                        </div>
+                    </div>
+                    <div class="main-anime-wrapper">
+                        <div class="main-anime-item-wrapper">
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                            <div class="main-anime-item">
+                                <div class="main-anime-item-image-wrapper">
+                                    <img src="https://drive.google.com/uc?export=view&id=1DyQgU_RFs50WPiGhwTNQ-jhRPU-kbwda" alt="" class="main-anime-item-img">
+                                    <div class="main-anime-item-image-sub-dub-wrapper">
+                                        <div class="main-anime-item-image-sub">SUB</div>
+                                        <div class="main-anime-item-image-ep">EP 12</div>
+                                        <div class="main-anime-item-image-dub">DUB</div>
+                                    </div>
+                                    <div class="main-anime-item-image-hover-effect-wrapper">
+                                        ▶
+                                    </div>
+                                </div>
+                                <div class="main-anime-item-name-wrapper">
+                                    <div class="main-anime-item-name">Chainsaw Man</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-anime-load-more-wrapper">Load More</div>
+                </div>
+                <div class="main-right">
+                    <div class="main-content-views-ranking-wrapper">
+                        <div class="main-content-views-ranking">
+                            <div class="main-content-views-ranking-views-section-wrapper">
+                                <div class="views-section-image-wrapper">
+                                    <img class="views-section-image" src="images/kimetsu_visualhorizontal.webp">
+                                    <div class="views-section-effect-wrapper">
+                                        <div class="views-section-effect-top"></div>
+                                        <div class="views-section-effect-right"></div>
+                                        <div class="views-section-effect-bottom"></div>
+                                        <div class="views-section-effect-left"></div>
+                                    </div>
+                                    <div class="views-section-title-wrapper">
+                                        <div class="views-section-title-icon">
+                                            1
+                                        </div>
+                                        <div class="views-section-text-views-wrapper">
+                                            <div class="views-section-title">Demon Slayer</div>
+                                            <div class="views-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-section-wrapper">
+                                <div class="main-content-views-ranking-ranking-section">
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">2</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">3</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">4</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">5</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">6</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">7</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">8</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">9</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-views-ranking-ranking-item">
+                                        <div class="ranking-section-icon">10</div>
+                                        <div class="ranking-section-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                        </div>
+                                        <div class="ranking-section-header-views-wrapper">
+                                            <div class="ranking-section-title-text">Demon Slayer</div>
+                                            <div class="ranking-section-views">69,420</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content-schedule-section-wrapper">
+                            <div class="main-content-schedule-section">
+                                <div class="main-content-schedule-header-wrapper">
+                                    <div class="main-content-schedule-header">
+                                        Estimated Schedule
+                                    </div>
+                                </div>
+                                <div class="main-content-schedule-date-time-wrapper-pre">
+                                    <div class="main-content-schedule-date-time-button-left-wrapper">
+                                        <div class="main-content-schedule-date-time-button-left">
+                                            <i class="fa-solid fa-angle-left"></i>                                    
+                                        </div>
+                                    </div>
+                                    <div class="main-content-schedule-date-time-wrapper">
+                                        <div class="main-content-schedule-date-time">
+                                            <div class="schedule-date-time-wrapper">
+                                                Sep 11
+                                            </div>
+                                            <div class="schedule-date-time-wrapper">
+                                                Sep 12
+                                            </div>
+                                            <div class="schedule-date-time-wrapper">
+                                                Sep 11
+                                            </div>
+                                            <div class="schedule-date-time-wrapper">
+                                                Sep 12
+                                            </div>
+                                            <div class="schedule-date-time-wrapper">
+                                                Sep 112
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-content-schedule-date-time-button-right-wrapper">
+                                        <div class="main-content-schedule-date-time-button-right">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-content-schedule-anime-section-wrapper">
+                                    <div class="main-content-schedule-anime-section">
+                                        <div class="schedule-anime">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                        <div class="schedule-anime-">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                        <div class="schedule-anime">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                        <div class="schedule-anime-">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                        <div class="schedule-anime">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                        <div class="schedule-anime-">
+                                            <div class="schedule-anime-title">Dr Stone Best</div>
+                                            <div class="schedule-anime-info-wrapper">
+                                                <div class="schedule-anime-info">
+                                                    <div class="schedule-anime-info-triangle">▲</div>
+                                                     <div class="schedule-anime-info-text">
+                                                           <div class="schedule-anime-info-play-icon">▶</div> 
+                                                           Episode 12
+                                                        </div>
+                                                </div>                                        
+                                            </div>
+                                            <div class="schedule-anime-date-time">1:12</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="footer-left">
+                <div class="footer-top">
+                    <div class="footer-logo-wrapper">
+                        <div class="footer-logo">
+                            <div class="footer-logo">
+                                <div class="show">
+                                    SHOW
+                                </div>
+                                <div class="anime">
+                                    ANIME
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-telegram-icon">
+                        <a href="https://t.me/Showanime_420" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                    <div class="footer-discord-icon">
+                        <a href="https://discord.gg/cFW7C925" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div class="footer-reddit-icon">
+                        <i class="fa-brands fa-reddit-alien"></i>
+                    </div>        
+                </div>
+                <div class="footer-disclaimer-wrapper">
+                    <div class="footer-disclaimer">
+                        Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-review-wrapper">
+                    <div class="footer-user-review">
+                        <div class="footer-review-pfp-wrapper">
+                            <img src="/images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" class="review-pfp-img">
+                        </div>
+                        <div class="review-comment-text-wrapper">
+                            <div class="review-comment-text">Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                            </div>
+                            <div class="review-comment-reaction-wrapper">
+                                 <div class="review-comment-reaction">
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/JS/ShowAnimeIndex.js"></script>
+    <script src="/JS/ShowAnimeSearch.js"></script>
+    <script src="/ShowAnimeData/ShowAnimeData.js"></script>
+    <script src="/JS/ShowAnimeSearchPage.js"></script>
+    <script src="https://kit.fontawesome.com/817106870b.js" crossorigin="anonymous"></script>
+</body>
+</html>

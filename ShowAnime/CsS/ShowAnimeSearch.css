@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding-top: 5vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 4vw;
+}
+
+.most-searched-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.most-searched {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.most-searched-header-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    align-items: center;
+}
+
+.most-searched-header {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: fantasy;
+    font-size: 2vw;
+}
+
+.most-searched-time-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 2vw;
+}
+
+.fa-regular.fa-clock {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+}
+
+.most-searched-time {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0.5vw;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.most-searched-item-wrapper {
+    display: flex;
+    height: fit-content;
+    padding: 1vw 0 0 0;
+}
+
+.most-searched-item {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 2vw 0 0;
+    flex-direction: column;
+}
+
+.most-searched-item-image-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.most-searched-item-img {
+    display: flex;
+    height: 15vw;
+    width: fit-content;
+    border-radius: 0.2112vw;
+}
+
+.most-searched-item-name-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw 0 0 0;
+    justify-content: center;
+}
+
+.most-searched-item-name {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-container {
+    display: flex;
+    height: fit-content;
+    width: 92vw;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 70vw;
+    padding: 0 2vw 0 0;
+}
+
+.main-right {
+    display: flex;
+    height: fit-content;
+    width: 22vw;
+}
+
+.main-content-views-ranking-wrapper {
+    padding: 0 !important;
+}
+
+.views-section-title-wrapper {
+    top: 36.112vw !important;
+}
+
+.main-filter-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    background: #565656;
+    border-radius: 0.54112vw;
+}
+
+.main-filter {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-filter {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-filter-option {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 1vw;
+    border-radius: 0.2112vw;
+    background: #212121;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-filter-search {
+    display: flex;
+    height: fit-content;
+    width: 11vw;
+    padding: 1vw;
+    border-radius: 0.2112vw;
+    background: red;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-filter-search-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    align-items: center;
+}
+
+.filter-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.filter {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw;
+    margin: 0 2vw 0 0;
+    border-radius: 0.2112vw;
+    background: #282828;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-search-wrapper {
+    display: flex;
+    height: fit-content;
+    width: 8vw;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-anime-item-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-anime-item {
+    display: flex;
+    flex-direction: column;
+    height: 21vw;
+    width: 12vw;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-anime-item-image-wrapper {
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.main-anime-item-img {
+    display: flex;
+    height: 18vw;
+    width: fit-content;
+    border-radius: 0.54112vw;
+}
+
+.main-anime-item-image-sub-dub-wrapper {
+    display: flex;
+    position: absolute;
+    height: 18vw;
+    width: -webkit-fill-available;
+}
+
+.main-anime-item-image-sub {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw 1vw;
+    border-radius: 0.54112vw 0 1vw 0;
+    background: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-item-image-ep {
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw 1vw;
+    margin-right: auto;
+    align-self: flex-end;
+    border-radius: 0 1vw 0 0.54112vw;
+    background: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-item-image-dub {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw 1vw;
+    align-self: flex-end;
+    margin-left: auto;
+    border-radius: 1vw 0 0.54112vw 0;
+    background: white;
+    color: red;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-item-image-sub-dub-wrapper:hover ~ .main-anime-item-image-hover-effect-wrapper {
+    display: flex;
+}
+
+.main-anime-item-image-hover-effect-wrapper {
+    display: none;
+    position: absolute;
+    height: 18vw;
+    width: -webkit-fill-available;
+    transition: all 0.2112s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    background: #00000086;
+    color: white;
+    font-size: 5vw;
+}
+
+.main-anime-item-image-hover-effect-wrapper:hover {
+    display: flex;
+}
+
+.main-anime-item-name-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-anime-item-name {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-load-more-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 1vw 2vw;
+    margin: 1vw auto;
+    border-radius: 0.2112vw;
+    background: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}

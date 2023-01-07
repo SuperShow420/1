@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CsS\ShowAnimeIndex.css">
+</head>
+<body>
+    <div class="main-header-wrapper-pre">
+        <div class="header-wrapper">
+            <div class="header-menu-wrapper-pre">
+                <div class="header-menu-wrapper">
+                    <div class="header-menu" onclick="AnimationHeaderMenuIcon(event)">
+                        <p class="header-menu-icon" id="header-menu-icon-1"></p>
+                        <p class="header-menu-icon" id="header-menu-icon-2"></p>
+                        <p class="header-menu-icon" id="header-menu-icon-3"></p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="nav-wrapper">
+                <div class="main-nav-wrapper">
+                    <nav class="main-navbar">
+                        <div class="nav-item-wrapper">
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Anime-List</div>
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Search Page</div>
+                            <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Help</div>
+                            <div class="nav-item-selected" id="nav-item-" onclick="NavItem(event)">Home</div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="main-logo-wrapper">
+                <div class="logo-wrapper">
+                    <div class="img-wrapper">
+                        <img src="🤍CsS🤍\145-1459476_[chibi]-demon-boy-[ishnia-gaia]-by-nikki-tine-chibi.png" alt="" class="logo-img">
+                    </div>
+                    <div class="logo-text-wrapper">
+                        <p class="logo-text-show">SHOW</p>
+                        <p class="logo-text-anime">ANIME</p>
+                    </div>
+                </div>
+            </div>
+            <div class="searchsection-wrapper">
+                <div class="search-section">
+                    <div class="icon-wrapper">
+                        <div class="i-wrapper">
+                            <i class="icon-i">
+                                
+                            </i>
+                        </div>
+                    </div>
+                    <div class="search-input-wrapper-main">
+                        <div class="search-wrapper">
+                            <input type="text" placeholder="search for anime...." class="search-input">
+                        </div>
+                    </div>
+                    <div class="search-result-wrapper-main">
+                        <div class="search-result">
+                            <div class="anime-info">
+                                <div class="anime-img-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="anime-img">
+                                </div>
+                                <div class="anime-info-wrapper">
+                                    <div class="anime-title-wrapper">
+                                        <p class="anime-title">Title Season</p>
+                                    </div>
+                                    <div class="episode-amount-wrapper">
+                                        <p class="episodes">Episodes</p>
+                                        <p class="episode-amount">12</p>
+                                    </div>
+                                    <div class="type-wrapper">
+                                        <p class="anime-type">TV Series</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-account-logo-wrapper">
+                <div class="header-account-logo">
+                    <div class="header-account-logo-img-wrapper">
+                        <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="header-account-logo-img">
+                    </div>
+                </div>
+            </div>
+            <div class="header-telegram-logo-wrapper">
+                <div class="header-telegram-logo">
+                    <div class="header-telegram-image-wrapper">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu">
+            <div class="menu-icon-wrapper">
+                <div class="header-menu" onclick="AnimationHeaderMenuIcon(event)">
+                    <p class="header-menu-icon" id="header-menu-icon-1"></p>
+                    <p class="header-menu-icon" id="header-menu-icon-2"></p>
+                    <p class="header-menu-icon" id="header-menu-icon-3"></p>                    
+                </div>   
+            </div>
+        <div class="menu-content-wrapper">
+            <div class="menu-content">
+                <div class="item-wrapper">
+                    <div class="playlist-wrapper">
+                        <i class="fa-regular fa-rectangle-list"></i>
+                        <div class="playlist">Playlist</div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="watch-history-wrapper">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <div class="watch-history">History</div>
+                    </div>
+                </div>
+                <div class="item-wrapper" id="item-music">
+                    <div class="music-wrapper">
+                        <i class="fa-solid fa-music"></i>
+                        <div class="music">Music</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="nav-wrapper-600px">
+        <div class="main-nav-wrapper">
+            <nav class="main-navbar">
+                <div class="nav-item-wrapper">
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Anime-List</div> 
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Search Page</div>
+                    <div class="nav-item" id="nav-item-" onclick="NavItem(event)">Help</div>
+                    <div class="nav-item-selected" id="nav-item-" onclick="NavItem(event)">Home</div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    
+    <div class="slider-area-wrapper">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slide-page-index-first">
+                    <div class="slider-effect-left"></div>
+                    <div class="slider-effect-wrapper">
+                        <div class="slider-effect-left"></div>
+                        <div class="slider-effect-bottom"></div>
+                        <div class="slider-effect-right"></div>
+                        <div class="slider-effect-top"></div>
+                    </div>
+                    <div class="slide-content-wrappper">
+                        <div class="content-anime">
+                            <div class="anime-heading-title-wrapper">
+                                <div class="heading-title">
+                                    Spy X Family
+                                </div>
+                            </div>
+                            <div class="anime-bottom-section-wrapper">
+                                <div class="anime-bottom-section">
+                                    <div class="info-button-wrapper">
+                                        <div class="anime-views-wrapper">
+                                            <div class="anime-info-icon-wrapper">
+                                                <div class="anime-info-icon">
+                                                    👁️‍🗨️
+                                                </div>
+                                            </div>
+                                            <div class="anime-views">
+                                                69,420
+                                            </div>
+                                            <div class="views-ranking-wrapper">
+                                                <div class="views-ranking">
+                                                    <div class="ranking">
+                                                        <div class="rank"> #4 </div>
+                                                        <div class="rank-name">Spy X Family</div>
+                                                    </div>
+                                                    <div class="views-ranking-bottom-section-wrapper">
+                                                        <div class="views-ranking-see-more-icon">👁️‍🗨️</div>
+                                                        <div class="views-ranking-see-more-text">SEE MORE</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="anime-date-wrapper">
+                                            <div class="anime-date">
+                                                12/11/2022
+                                            </div>
+                                        </div>
+                                        <div class="anime-type-wrapper">
+                                            <div class="slide-anime-type">
+                                                TV Series
+                                            </div>
+                                        </div>
+                                        <div class="anime-episode-amount-wrapper">
+                                            <div class="anime-episode-amount">
+                                                12.11
+                                            </div>
+                                        </div>
+                                        <div class="anime-view-button-wrapper">
+                                            <div class="anime-view-button">
+                                                VIEW
+                                            </div>
+                                        </div>
+                                        <div class="anime-watch-button-wrapper">
+                                            <div class="anime-watch-button">
+                                                WATCH
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-description-wrapper">
+                                        <div class="anime-description">
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku 
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="slide-page-index-first">
+                    <div class="slider-effect-left"></div>
+                    <div class="slider-effect-wrapper">
+                        <div class="slider-effect-left"></div>
+                        <div class="slider-effect-bottom"></div>
+                        <div class="slider-effect-right"></div>
+                        <div class="slider-effect-top"></div>
+                    </div>
+                    <div class="slide-content-wrappper">
+                        <div class="content-anime">
+                            <div class="anime-heading-title-wrapper">
+                                <div class="heading-title">
+                                    Spy X Family
+                                </div>
+                            </div>
+                            <div class="anime-bottom-section-wrapper">
+                                <div class="anime-bottom-section">
+                                    <div class="info-button-wrapper">
+                                        <div class="anime-views-wrapper">
+                                            <div class="anime-info-icon-wrapper">
+                                                <div class="anime-info-icon">
+                                                    👁️‍🗨️
+                                                </div>
+                                            </div>
+                                            <div class="anime-views">
+                                                69,420
+                                            </div>
+                                            <div class="views-ranking-wrapper">
+                                                <div class="views-ranking">
+                                                    <div class="ranking">
+                                                        <div class="rank"> #4 </div>
+                                                        <div class="rank-name">Spy X Family</div>
+                                                    </div>
+                                                    <div class="views-ranking-bottom-section-wrapper">
+                                                        <div class="views-ranking-see-more-icon">👁️‍🗨️</div>
+                                                        <div class="views-ranking-see-more-text">SEE MORE</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="anime-date-wrapper">
+                                            <div class="anime-date">
+                                                12/11/2022
+                                            </div>
+                                        </div>
+                                        <div class="anime-type-wrapper">
+                                            <div class="slide-anime-type">
+                                                TV Series
+                                            </div>
+                                        </div>
+                                        <div class="anime-episode-amount-wrapper">
+                                            <div class="anime-episode-amount">
+                                                12.11
+                                            </div>
+                                        </div>
+                                        <div class="anime-view-button-wrapper">
+                                            <div class="anime-view-button">
+                                                VIEW
+                                            </div>
+                                        </div>
+                                        <div class="anime-watch-button-wrapper">
+                                            <div class="anime-watch-button">
+                                                WATCH
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-description-wrapper">
+                                        <div class="anime-description">
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku 
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>  
+                <div class="slide-page-index-first">
+                    <div class="slider-effect-left"></div>
+                    <div class="slider-effect-wrapper">
+                        <div class="slider-effect-left"></div>
+                        <div class="slider-effect-bottom"></div>
+                        <div class="slider-effect-right"></div>
+                        <div class="slider-effect-top"></div>
+                    </div>
+                    <div class="slide-content-wrappper">
+                        <div class="content-anime">
+                            <div class="anime-heading-title-wrapper">
+                                <div class="heading-title">
+                                    Spy X Family
+                                </div>
+                            </div>
+                            <div class="anime-bottom-section-wrapper">
+                                <div class="anime-bottom-section">
+                                    <div class="info-button-wrapper">
+                                        <div class="anime-views-wrapper">
+                                            <div class="anime-info-icon-wrapper">
+                                                <div class="anime-info-icon">
+                                                    👁️‍🗨️
+                                                </div>
+                                            </div>
+                                            <div class="anime-views">
+                                                69,420
+                                            </div>
+                                            <div class="views-ranking-wrapper">
+                                                <div class="views-ranking">
+                                                    <div class="ranking">
+                                                        <div class="rank"> #4 </div>
+                                                        <div class="rank-name">Spy X Family</div>
+                                                    </div>
+                                                    <div class="views-ranking-bottom-section-wrapper">
+                                                        <div class="views-ranking-see-more-icon">👁️‍🗨️</div>
+                                                        <div class="views-ranking-see-more-text">SEE MORE</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="anime-date-wrapper">
+                                            <div class="anime-date">
+                                                12/11/2022
+                                            </div>
+                                        </div>
+                                        <div class="anime-type-wrapper">
+                                            <div class="slide-anime-type">
+                                                TV Series
+                                            </div>5
+                                        </div>
+                                        <div class="anime-episode-amount-wrapper">
+                                            <div class="anime-episode-amount">
+                                                12.11
+                                            </div>
+                                        </div>
+                                        <div class="anime-view-button-wrapper">
+                                            <div class="anime-view-button">
+                                                VIEW
+                                            </div>
+                                        </div>
+                                        <div class="anime-watch-button-wrapper">
+                                            <div class="anime-watch-button">
+                                                WATCH
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-description-wrapper">
+                                        <div class="anime-description">
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku 
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>  
+                <div class="slide-page-index-first">
+                    <div class="slider-effect-left"></div>
+                    <div class="slider-effect-wrapper">
+                        <div class="slider-effect-left"></div>
+                        <div class="slider-effect-bottom"></div>
+                        <div class="slider-effect-right"></div>
+                        <div class="slider-effect-top"></div>
+                    </div>
+                    <div class="slide-content-wrappper">
+                        <div class="content-anime">
+                            <div class="anime-heading-title-wrapper">
+                                <div class="heading-title">
+                                    Spy X Family
+                                </div>
+                            </div>
+                            <div class="anime-bottom-section-wrapper">
+                                <div class="anime-bottom-section">
+                                    <div class="info-button-wrapper">
+                                        <div class="anime-views-wrapper">
+                                            <div class="anime-info-icon-wrapper">
+                                                <div class="anime-info-icon">
+                                                    👁️‍🗨️
+                                                </div>
+                                            </div>
+                                            <div class="anime-views">
+                                                69,420
+                                            </div>
+                                            <div class="views-ranking-wrapper">
+                                                <div class="views-ranking">
+                                                    <div class="ranking">
+                                                        <div class="rank"> #4 </div>
+                                                        <div class="rank-name">Spy X Family</div>
+                                                    </div>
+                                                    <div class="views-ranking-bottom-section-wrapper">
+                                                        <div class="views-ranking-see-more-icon">👁️‍🗨️</div>
+                                                        <div class="views-ranking-see-more-text">SEE MORE</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="anime-date-wrapper">
+                                            <div class="anime-date">
+                                                12/11/2022
+                                            </div>
+                                        </div>
+                                        <div class="anime-type-wrapper">
+                                            <div class="slide-anime-type">
+                                                TV Series
+                                            </div>
+                                        </div>
+                                        <div class="anime-episode-amount-wrapper">
+                                            <div class="anime-episode-amount">
+                                                12.11
+                                            </div>
+                                        </div>
+                                        <div class="anime-view-button-wrapper">
+                                            <div class="anime-view-button">
+                                                VIEW
+                                            </div>
+                                        </div>
+                                        <div class="anime-watch-button-wrapper">
+                                            <div class="anime-watch-button">
+                                                WATCH
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-description-wrapper">
+                                        <div class="anime-description">
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku 
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                            Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>               
+            </div>
+        </div>
+    </div>          
+    </div>
+    <div class="slider-navigation-control-left-button-wrapper" onclick="SlideNavigationLeftFunction()">
+        <div class="slider-navigation-control-button">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+    </div>
+    <div class="slider-navigation-control-right-button-wrapper" onclick="SlideNavigationRightFunction()">
+        <div class="slider-navigation-control-right-button">
+           <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>           
+    <div class="slide-navigation-indicator-wrapper">
+        <div class="slide-navigation-indicator">
+            1
+        </div>
+    </div>    
+    <div class="main-content-wrapper">
+        <div class="latest-anime-slide-wrapper">
+            <div class="latest-anime-slide">
+                <div class="latest-anime-wrapper" id="1">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="2">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="3">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="4">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="5">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="6">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="7">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="8">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="9">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="1">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="2">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="3">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="4">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="5">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>
+                <div class="latest-anime-wrapper" id="6">
+                    <div class="latest-anime">
+                        <img src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp" alt="" class="latest-anime-image">
+                    </div>
+                    <div class="latest-anime-heading-title-wrapper">
+                        <div class="latest-anime-heading-title">
+                            Spy X Family
+                        </div>
+                    </div>
+                    <div class="latest-anime-icon-wrapper">
+                        <div class="latest-anime-watch-icon">WATCH</div>
+                        <div class="latest-anime-sub-dub-icon">SUB</div>
+                    </div>
+                </div>           
+            </div>
+            <div class="latest-anime-slide-effect-left"></div>
+            <div class="latest-anime-slide-effect-right"></div>    
+        </div>
+        <div class="main-content">
+            <div class="anime-content-wrapper">
+                <div class="latest-anime-selected-info-wrapper">
+                    <div class="latest-anime-selected-overflow">
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                                <div class="latest-anime-selected-details">
+                                    <div class="latest-anime-selected-details-header-title-wrapper">
+                                        <div class="latest-anime-selected-details-header-title">
+                                            Spy X Family
+                                        </div>
+                                    </div>
+                                    <div class="latest-anime-selected-details-bottom-section">
+                                        <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                            <div class="latest-anime-selected-details-buttons-important">
+                                                <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info" >TV Series</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                                <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                                <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-anime-selected-details-description-wrapper">
+                                            <div class="latest-anime-selected-details-descrption">
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                            <div class="latest-anime-selected-details">
+                                <div class="latest-anime-selected-details-header-title-wrapper">
+                                    <div class="latest-anime-selected-details-header-title">
+                                        Spy X Family
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-bottom-section">
+                                    <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                        <div class="latest-anime-selected-details-buttons-important">
+                                        <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                        <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                        <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-description-wrapper">
+                                    <div class="latest-anime-selected-details-descrption">
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku                                           
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                                <div class="latest-anime-selected-details">
+                                    <div class="latest-anime-selected-details-header-title-wrapper">
+                                        <div class="latest-anime-selected-details-header-title">
+                                            Spy X Family
+                                        </div>
+                                    </div>
+                                    <div class="latest-anime-selected-details-bottom-section">
+                                        <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                            <div class="latest-anime-selected-details-buttons-important">
+                                                <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info" >TV Series</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                                <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                                <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-anime-selected-details-description-wrapper">
+                                            <div class="latest-anime-selected-details-descrption">
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                            <div class="latest-anime-selected-details">
+                                <div class="latest-anime-selected-details-header-title-wrapper">
+                                    <div class="latest-anime-selected-details-header-title">
+                                        Spy X Family
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-bottom-section">
+                                    <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                        <div class="latest-anime-selected-details-buttons-important">
+                                        <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                        <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                        <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-description-wrapper">
+                                    <div class="latest-anime-selected-details-descrption">
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku                                           
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                            <div class="latest-anime-selected-details">
+                                <div class="latest-anime-selected-details-header-title-wrapper">
+                                    <div class="latest-anime-selected-details-header-title">
+                                        Spy X Family
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-bottom-section">
+                                    <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                        <div class="latest-anime-selected-details-buttons-important">
+                                        <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                        <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                        <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-description-wrapper">
+                                    <div class="latest-anime-selected-details-descrption">
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku                                           
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                                <div class="latest-anime-selected-details">
+                                    <div class="latest-anime-selected-details-header-title-wrapper">
+                                        <div class="latest-anime-selected-details-header-title">
+                                            Spy X Family
+                                        </div>
+                                    </div>
+                                    <div class="latest-anime-selected-details-bottom-section">
+                                        <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                            <div class="latest-anime-selected-details-buttons-important">
+                                                <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info" >TV Series</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                                <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                                <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                                <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                            </div>
+                                        </div>
+                                        <div class="latest-anime-selected-details-description-wrapper">
+                                            <div class="latest-anime-selected-details-descrption">
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                                Waku Waku Waku Waku Waku
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="latest-anime-selected-info">
+                            <div class="latest-anime-selected-image-wrapper">
+                                <img class="latest-anime-selected-image" src="images/Spy-x-Family-Anime-Reveals-Three-Posters-Before-Its-Debut-on-April-9.webp">
+                            </div>
+                            <div class="latest-anime-selected-details-wrapper">
+                            <div class="latest-anime-selected-details">
+                                <div class="latest-anime-selected-details-header-title-wrapper">
+                                    <div class="latest-anime-selected-details-header-title">
+                                        Spy X Family
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-bottom-section">
+                                    <div class="latest-anime-selected-details-buttons-important-wrapper">
+                                        <div class="latest-anime-selected-details-buttons-important">
+                                        <div class="latest-anime-selected-details-buttons-important-info">69,420</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">11/12/2012</div>
+                                        <div class="latest-anime-selected-details-buttons-important-info">12.11 Episodes</div>
+                                        <div class="latest-anime-selected-details-buttons">WATCH</div>
+                                        <div class="latest-anime-selected-details-buttons">VIEW</div>
+                                    </div>
+                                </div>
+                                <div class="latest-anime-selected-details-description-wrapper">
+                                    <div class="latest-anime-selected-details-descrption">
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku                                           
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                        Waku Waku Waku Waku Waku
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main-anime-section-wrapper">
+                    <div class="main-anime-section">
+                        <div class="trending-anime-list-wrapper">
+                            <div class="trending-anime-list">
+                                <div class="trending-anime-header-wrapper">
+                                    <div class="trending-anime-header">
+                                        Trending Anime
+                                    </div>
+                                    <img src="images/chika-dance.gif" alt="" class="chika-dance-gif">
+                                    <div class="trending-anime-list-sub-dub-button-wrapper">
+                                        <div class="trending-anime-list-sub-button">SUB</div>
+                                        <div class="trending-anime-list-dub-button">DUB</div>
+
+                                    </div>
+                                </div>
+                                <div class="trending-anime-item-wrapper">
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-hover-play-icon-wrapper">
+                                            <div class="trending-anime-hover-play-icon">
+                                                ▶
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trending-anime-item" id="details-active">
+                                        <div class="trending-anime-item-image-wrapper">
+                                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="trending-anime-item-image">
+                                        </div>
+                                        
+                                        <div class="trending-anime-item-title-wrapper">
+                                            <div class="trending-anime-item-title">
+                                                Spy X Family
+                                            </div>
+                                        </div>
+                                        <div class="trending-anime-item-icon-wrapper">
+                                            <div class="trending-anime-item-icon">
+                                                <div class="trending-anime-item-icon-left">HD</div>
+                                                <div class="trending-anime-item-icon-right">EP 12-12</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-views-ranking-wrapper">
+                <div class="main-content-views-ranking">
+                    <div class="main-content-views-ranking-views-section-wrapper">
+                        <div class="views-section-image-wrapper">
+                            <img class="views-section-image" src="images/kimetsu_visualhorizontal.webp">
+                            <div class="views-section-effect-wrapper">
+                                <div class="views-section-effect-top"></div>
+                                <div class="views-section-effect-right"></div>
+                                <div class="views-section-effect-bottom"></div>
+                                <div class="views-section-effect-left"></div>
+                            </div>
+                            <div class="views-section-title-wrapper">
+                                <div class="views-section-title-icon">
+                                    1
+                                </div>
+                                <div class="views-section-text-views-wrapper">
+                                    <div class="views-section-title">Demon Slayer</div>
+                                    <div class="views-section-views">69,420</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content-views-ranking-ranking-section-wrapper">
+                        <div class="main-content-views-ranking-ranking-section">
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">2</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">3</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">4</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">5</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">6</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">7</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">8</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">9</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                            <div class="main-content-views-ranking-ranking-item">
+                                <div class="ranking-section-icon">10</div>
+                                <div class="ranking-section-image-wrapper">
+                                    <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="ranking-section-image">
+                                </div>
+                                <div class="ranking-section-header-views-wrapper">
+                                    <div class="ranking-section-title-text">Demon Slayer</div>
+                                    <div class="ranking-section-views">69,420</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-schedule-section-wrapper">
+                    <div class="main-content-schedule-section">
+                        <div class="main-content-schedule-header-wrapper">
+                            <div class="main-content-schedule-header">
+                                Estimated Schedule
+                            </div>
+                        </div>
+                        <div class="main-content-schedule-date-time-wrapper-pre">
+                            <div class="main-content-schedule-date-time-button-left-wrapper">
+                                <div class="main-content-schedule-date-time-button-left">
+                                    <i class="fa-solid fa-angle-left"></i>                                    
+                                </div>
+                            </div>
+                            <div class="main-content-schedule-date-time-wrapper">
+                                <div class="main-content-schedule-date-time">
+                                    <div class="schedule-date-time-wrapper">
+                                        Sep 11
+                                    </div>
+                                    <div class="schedule-date-time-wrapper">
+                                        Sep 12
+                                    </div>
+                                    <div class="schedule-date-time-wrapper">
+                                        Sep 11
+                                    </div>
+                                    <div class="schedule-date-time-wrapper">
+                                        Sep 12
+                                    </div>
+                                    <div class="schedule-date-time-wrapper">
+                                        Sep 112
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-content-schedule-date-time-button-right-wrapper">
+                                <div class="main-content-schedule-date-time-button-right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content-schedule-anime-section-wrapper">
+                            <div class="main-content-schedule-anime-section">
+                                <div class="schedule-anime">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12   3
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                                <div class="schedule-anime-">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                                <div class="schedule-anime">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                                <div class="schedule-anime-">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                                <div class="schedule-anime">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                                <div class="schedule-anime-">
+                                    <div class="schedule-anime-title">Dr Stone Best</div>
+                                    <div class="schedule-anime-info-wrapper">
+                                        <div class="schedule-anime-info">
+                                            <div class="schedule-anime-info-triangle">▲</div>
+                                             <div class="schedule-anime-info-text">
+                                                   <div class="schedule-anime-info-play-icon">▶</div> 
+                                                   Episode 12
+                                                </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="schedule-anime-date-time">1:12</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hover-anime-details-wrapper">
+                <div class="hover-anime-details">
+                    <div class="hover-anime-details-top">
+                        <div class="hover-anime-details-img-wrapper">
+                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="" class="hover-anime-details-img">
+                        </div>
+                        <div class="hover-anime-details-info-wrapper">
+                            <div class="hover-anime-details-info">
+                                <div class="hover-anime-details-name-wrapper">
+                                    <div class="hover-anime-details-name">
+                                        Spy X Family
+                                    </div>
+                                </div>
+                                <div class="hover-anime-details-essential-info">
+                                    <div class="hover-anime-details-essential">
+                                        <div class="hover-anime-details-essential-type">
+                                            TV Series
+                                        </div>
+                                        <div class="hover-anime-details-essential-views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            69,420
+                                        </div>
+                                        <div class="hover-anime-details-essential-ep-duration">
+                                            12:11
+                                        </div>
+                                        <div class="hover-anime-details-essential-status">
+                                            Ongoing
+                                        </div>
+                                        <div class="hover-anime-details-essential-date">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            11/12/2022
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hover-anime-details-bottom">
+                        <div class="hover-anime-details-description-wrapper">
+                            <div class="hover-anime-details-description">
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku Waku Waku Waku
+                                Waku Waku 
+                            </div>
+                        </div>
+                        <div class="hover-anime-details-names-wrapper">
+                            <div class="hover-anime-details-other">
+                                Other Names :
+                            </div>
+                            <div class="hover-anime-details-names">
+                                Waku Waku
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>        
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="footer-left">
+                <div class="footer-top">
+                    <div class="footer-logo-wrapper">
+                        <div class="footer-logo">
+                            <div class="footer-logo">
+                                <div class="show">
+                                    SHOW
+                                </div>
+                                <div class="anime">
+                                    ANIME
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-telegram-icon">
+                        <a href="https://t.me/Showanime_420" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                    <div class="footer-discord-icon">
+                        <a href="https://discord.gg/cFW7C925" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <div class="footer-reddit-icon">
+                        <i class="fa-brands fa-reddit-alien"></i>
+                    </div>        
+                </div>
+                <div class="footer-disclaimer-wrapper">
+                    <div class="footer-disclaimer">
+                        Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-review-wrapper">
+                    <div class="footer-user-review">
+                        <div class="footer-review-pfp-wrapper">
+                            <img src="images/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt="MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" class="review-pfp-img">
+                        </div>
+                        <div class="review-comment-text-wrapper">
+                            <div class="review-comment-text">Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku Waku
+                            </div>
+                            <div class="review-comment-reaction-wrapper">
+                                 <div class="review-comment-reaction">
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/ShowAnimeIndex.js"></script>
+    <script src="JS\ShowAnimeSearch.js"></script> 
+    <script src="ShowAnimeData/ShowAnimeData.js"></script>
+    <script src="https://kit.fontawesome.com/817106870b.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

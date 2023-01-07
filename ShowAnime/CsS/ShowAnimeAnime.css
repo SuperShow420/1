@@ -1,0 +1,443 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 5vw 4vw;
+}
+
+.main-anime-background-anime-img-wrapper {
+    display: flex;
+    position: absolute;
+    height: 52vw;
+    width: 92vw;
+    overflow: hidden;
+}
+
+.main-anime-background-img {
+    display: flex;
+    position: absolute;
+    height: auto;
+    width: 92vw;
+    border-radius: 0.54112vw;
+}
+
+.main-anime-background-anime-effect-wrraper {
+    display: flex;
+    position: absolute;
+    height: 52vw;
+    width: 92vw;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    border-radius: 0.54112vw;
+}
+
+.main-anime-background-effect {
+    display: flex;
+    height: 5vw;
+    width: -webkit-fill-available;
+    background: linear-gradient(0deg, #282828a1, transparent);
+}
+
+.main-anime-background {
+    display: flex;
+    height: 47vw;
+    width: -webkit-fill-available;
+    background-image: linear-gradient(0deg, #282828 56%, #282828a1);
+    border-radius: 0 0 0.54112vw 0.54112vw;
+}
+
+.main-anime-info-wrapper {
+    display: flex;
+    height: 52vw;
+    width: -webkit-fill-available;
+    z-index: 1;
+}
+
+.main-anime-info {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.main-anime-info {
+    display: flex;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.main-anime-info-left {
+    display: flex;
+    height: -webkit-fill-available;
+    width: 28vw;
+    padding-bottom: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info-image-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.main-info-image {
+    display: flex;
+    height: fit-content;
+    width: 15vw;
+    border-radius: 0.54112vw;
+}
+
+.main-anime-info-right {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    width: 64vw;
+    justify-content: center;
+}
+
+.main-anime-info-right-title-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-anime-info-right-title {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2vw;
+}
+
+.main-anime-info-right-buttons-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.main-anime-info-right-buttons {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.watch-button-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.watch-button {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5vw;
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 0.2112vw;
+    font-family: sans-serif;
+    font-size: 1.56112vw;
+}
+
+.fa-solid.fa-play {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0 0 1vw;
+    rotate: 180deg;
+}
+
+.main-anime-info-right-wrapper {
+    display: flex;
+    height: 4vw;
+    width: 41vw;
+    padding: 0 0 1vw 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-anime-info-right-type {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-views {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-ep-duration {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-status {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-date {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-studio {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-genre {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 1vw 0 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-type-text, .main-anime-info-right-status-text,
+.main-anime-info-right-studio-text, .main-anime-info-right-genre-text {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0.5vw 0 0;
+    color: red;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.fa-regular.fa-eye, .fa-regular.fa-clock,
+.fa-regular.fa-calendar-days {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0.5vw 0 0;
+    color: red;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-genre a {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0.5vw 0 0;
+    color: white;
+    transition: all 0.2112s ease-in-out;
+}
+
+.main-anime-info-right-genre a:hover {
+    color: red;
+}
+
+.main-anime-info-right-description-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-anime-info-right-description {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: #a8a8a8;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-other-names-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw 0;
+}
+
+.main-anime-info-right-other-names-text {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 0.5vw 0 0;
+    color: red;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-info-right-other-names {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: #a8a8a8;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.main-anime-related-anime-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 0 4vw;
+}
+
+.main-anime-related-anime {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw;
+    background: #282828;
+    border-radius: 0.54112vw;
+    flex-direction: column;
+}
+
+.main-anime-related-anime-header-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-anime-related-anime-header {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: fantasy;
+    font-size: 2.84112vw;
+}
+
+.main-anime-related-anime-item-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.anime-related-anime-item {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 2vw 0 0;
+    flex-direction: column;
+}
+
+.anime-related-anime-item-image-wrapper {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.anime-related-anime-item-image {
+    display: flex;
+    height: 21vw;
+    width: fit-content;
+    border-radius: 0.54112vw;
+}
+
+.anime-related-anime-item-title-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 1vw 0;
+    justify-content: center;
+}
+
+.anime-related-anime-item-title {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2112vw;
+}
+
+.main-recommended-anime-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 4vw 4vw;
+}
+
+.main-recommended-anime {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-recommended-anime-header-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
+
+.main-recommended-anime-header {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: fantasy;
+    font-size: 2vw;
+}
+
+.main-recommended-anime-item-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2vw 0;
+}
+
+.main-recommended-anime-item {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.trending-anime-item-image-wrapper {
+    display: flex;
+    height: fit-content;
+    width: -webkit-fill-available;
+}
