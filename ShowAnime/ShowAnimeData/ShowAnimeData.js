@@ -14,7 +14,7 @@ const Anime = [
                 imgVerticalHighQuality : "https://drive.google.com/uc?export=view&id=19Hrpiny_tt1rp4UDKonjNTGSQPqWu9v8",
                 imgHorizontal : "https://drive.google.com/uc?export=view&id=1aGVhiMeeXgnXZlvNybSOAIfQZdQpCr9u",
                 imgHorizontalHighQuality : "https://drive.google.com/uc?export=view&id=1aGVhiMeeXgnXZlvNybSOAIfQZdQpCr9u",
-                server : {
+                serverSub : {
                            streamsb : [
 '<IFRAME SRC="https://sbchill.com/e/3f5gl9ct5a8n.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>'
 
