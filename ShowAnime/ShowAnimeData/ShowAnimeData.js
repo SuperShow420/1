@@ -21,8 +21,7 @@ const Anime = [
 
                            ],
                             filemoon : [
-                                '<iframe src="https://filemoon.in/e/92y4ydjfpuew/AnimePahe_Tonikaku_Kawaii_-_01_1080p_SubsPlease" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>'
-
+                               '<IFRAME SRC="https://sbchill.com/e/3f5gl9ct5a8n.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>'
 
                                     ],
                             streamtape : {
