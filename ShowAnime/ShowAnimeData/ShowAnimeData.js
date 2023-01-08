@@ -1,6 +1,6 @@
 const Anime = [
     {
-                name : 'Tokyo Revengers: Seiya Kessen-hen',
+                animeName : 'Tokyo Revengers: Seiya Kessen-hen',
                 otherNames : ["Tokyo Revengers: Christmas Showdown"," 東京リベンジャーズ 聖夜決戦編"], 
                 description : 'Second season of Tokyo Revengers.',
                 type : "TV",
