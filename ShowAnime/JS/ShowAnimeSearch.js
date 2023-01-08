@@ -21,7 +21,7 @@ function SearchAnime() {
 
     SearchResult.innerHTML = ""
     for (let index = 0; index < name.length; index++) {
-            SearchResult.innerHTML += `<a class="anime-a" href="http://localhost:3000/watch/` + name[index].animeName + `" >
+            SearchResult.innerHTML += `<a class="anime-a" href="/watch/` + name[index].animeName + `" >
         <div class="anime-info">
         <div class="anime-img-wrapper">
             <img src="` + name[index].imgVertical + `" alt="" class="anime-img">
