@@ -1,7 +1,7 @@
 const Anime = [
     {
                 name : 'Tokyo Revengers: Seiya Kessen-hen',
-                otherNames : {"Tokyo Revengers: Christmas Showdown"," 東京リベンジャーズ 聖夜決戦編"}, 
+                otherNames : ["Tokyo Revengers: Christmas Showdown"," 東京リベンジャーズ 聖夜決戦編"], 
                 description : 'Second season of Tokyo Revengers.',
                 type : "TV",
                 episodesRuntime : "13",
@@ -15,11 +15,11 @@ const Anime = [
                 imgHorizontal : "https://drive.google.com/uc?export=view&id=1aGVhiMeeXgnXZlvNybSOAIfQZdQpCr9u",
                 imgHorizontalHighQuality : "https://drive.google.com/uc?export=view&id=1aGVhiMeeXgnXZlvNybSOAIfQZdQpCr9u",
                 server : {
-                           streamsb : {
-                                  <IFRAME SRC="https://sbchill.com/e/3f5gl9ct5a8n.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+                           streamsb : [
+'<IFRAME SRC="https://sbchill.com/e/3f5gl9ct5a8n.html" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>'
 
 
-                                    },
+                           ],
                             filemoon : {
                                     },
                             streamtape : {
