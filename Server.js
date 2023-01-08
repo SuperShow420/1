@@ -11,4 +11,4 @@ app.use(express.static(path.join(__dirname, "/ShowAnime/CsS/ShowAnimeVideoPage.c
 app.use('/', require(__dirname + "/ShowAnime/route.js"))
 
 
-app.listen(port, 0.0.0.0)
+app.listen(port, '0.0.0.0')
