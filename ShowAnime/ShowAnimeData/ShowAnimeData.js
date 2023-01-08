@@ -20,11 +20,11 @@ const Anime = [
 
 
                            ],
-                            filemoon : {
-                                <iframe src="https://filemoon.in/e/92y4ydjfpuew/AnimePahe_Tonikaku_Kawaii_-_01_1080p_SubsPlease" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>
+                            filemoon : [
+                                '<iframe src="https://filemoon.in/e/92y4ydjfpuew/AnimePahe_Tonikaku_Kawaii_-_01_1080p_SubsPlease" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>'
 
 
-                                    },
+                                    ],
                             streamtape : {
                                     },
                             doodstream : {
