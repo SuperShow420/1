@@ -2,7 +2,7 @@ const Anime = [
     {
                 animeName : 'Tokyo Revengers: Seiya Kessen-hen',
                 otherNames : ["Tokyo Revengers: Christmas Showdown"," 東京リベンジャーズ 聖夜決戦編"], 
-                description : 'Watching the news, Takemichi Hanagaki learns that his girlfriend from way back in middle school, Hinata Tachibana, has died. The only girlfriend he ever had was just killed by a villainous group known as the Tokyo Manji Gang. He lives in a crappy apartment with thin walls, and his six-years-younger boss treats him like an idiot. At the height of his rock-bottom life, he suddenly time-leaps twelve years back to his middle school days. To save Hinata and change the life he spent running away, hopeless part-timer Takemichi must aim for the top of Kantos most sinister delinquent gang..',
+                description : '**Watching the news, Takemichi Hanagaki learns that his girlfriend from way back in middle school, Hinata Tachibana, has died. The only girlfriend he ever had was just killed by a villainous group known as the Tokyo Manji Gang. He lives in a crappy apartment with thin walls, and his six-years-younger boss treats him like an idiot. At the height of his rock-bottom life, he suddenly time-leaps twelve years back to his middle school days. To save Hinata and change the life he spent running away, hopeless part-timer Takemichi must aim for the top of Kantos most sinister delinquent gang**',
                 type : "TV",
                 episodesRuntime : "13",
                 status : "Currently Airing",
