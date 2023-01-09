@@ -7,7 +7,7 @@ const Anime = [
                 episodesRuntime : "13",
                 status : "Currently Airing",
                 releaeDate : "Jan 8, 2023 to ?",
-                related : "Tokyo Revengers",
+                related : ["Tokyo Revengers"],
                 genre : "Action, Drama, Supernatural",
                 studio : "LIDENFILMS",
                 imgVertical : "https://drive.google.com/uc?export=view&id=19Hrpiny_tt1rp4UDKonjNTGSQPqWu9v8",
